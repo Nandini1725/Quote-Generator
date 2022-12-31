@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container " id="one">
+        
+        <form class="form" id="login">
+            <h1 class="form-title">Login</h1>
+                <div class="form-message form-message-error"></div>
+                <div class="form-input-grp">
+                    <input type="text" class="form-input username" autofocus
+                    placeholder="Username or email" required>
+                    <div class="form-input-error-message"></div> 
+                </div>     
+                <div class="form-input-grp">
+                    <input type="password" class="form-input password" autofocus
+                    placeholder="Password" required>
+                    <div class="form-input-error-message"></div> 
+                </div> 
+                <button class="form-button" type="submit">Continue</button>
+                <p class="form-text">
+                    <a class="form-link" href="./" id="linkCreateAccount">Don't have an account? Create account.</a>
+                </p> 
+        </form>
+
+        <form class="form form-hidden" id="createAccount">
+            <h1 class="form-title">Create Account</h1>
+                <div class="form-message form-message-error"></div>
+                <div class="form-input-grp">
+                    <input type="text" id="signupUsername" class="form-input " autofocus placeholder="Username" required>
+                    <div class="form-input-error-message"></div> 
+                </div>  
+                <div class="form-input-grp">
+                    <input type="text" class="form-input " autofocus
+                    placeholder="Email Address" required>
+                    <div class="form-input-error-message"></div> 
+                </div>   
+                <div class="form-input-grp">
+                    <input type="text" class="form-input " autofocus
+                    placeholder="Password" required>
+                    <div class="form-input-error-message"></div> 
+                </div>  
+                <div class="form-input-grp">
+                    <input type="password" class="form-input" autofocus
+                    placeholder="Confirm Password" required>
+                    <div class="form-input-error-message"></div> 
+                </div> 
+                <button class="form-button btnS" type="submit">Continue</button>
+                <p class="form-text">
+                    <a class="form-link" href="./" id="linkLogin">Already have an account? Sign-in</a>
+                </p> 
+        </form>
+         <div class="wrapper form-hidden" id="wrapper">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+            <header>Quote of the Day</header>
+            <div class="content">
+                <div class="quote-area">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="quote">Never give up because you never know if the next try is going to be the one that works.</p>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="author">
+                    <span>__</span>
+                    <span class="name">Mary Kay Ash</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="features">
+                   <ul>
+                    <li class="sound"><i class="fas fa-volume-up"></i></li>
+                    <li class="copy"><i class="fas fa-copy"></i></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i></li>
+                </ul>
+                 <button class="mivi">New Quote</button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+       
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
